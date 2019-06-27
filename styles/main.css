@@ -1,0 +1,20 @@
+body {
+    background-color: Red;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    font-size: 50pt;
+    margin-bottom: 100pt;
+    color: white;
+}
+
+.body-text {
+    color: black;
+}
+
+#intro {
+    font-size: 75;
+    color: blanchedalmond;
+}
