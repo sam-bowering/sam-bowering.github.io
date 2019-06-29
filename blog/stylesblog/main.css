@@ -1,0 +1,79 @@
+/* Whole Page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("images/wakeboard.jpg");
+    background-attachment: fixed;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: black;
+    opacity: 0.90;
+    color: white;
+    position: relative;
+    height: 70px; 
+    padding: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: darkslategrey;
+    position: sticky;
+    position: -webkit-sticky;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+}
+
+/* Need to change positioning code */
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 495px;
+}
+
+.navbar a:hover {
+    color: darkslategrey;
+    background-color: white;
+}
+
+/* Main Content */
+.main {
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.navbaraspacing {
+    float: left;
+    padding: 0px;
+    background-color: grey;
+    height: 25px;
+    width: 1px;
+    position: relative;
+    left: 495px;
+    top: 11px;
+    opacity: 0.55;
+}
