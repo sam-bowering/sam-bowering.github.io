@@ -60,6 +60,11 @@ body {
     background-color: white;
 }
 
+.navbar a.active {
+    background-color: grey;
+    color: black;
+}
+
 /* Main Content */
 .main {
     padding: 20px;
