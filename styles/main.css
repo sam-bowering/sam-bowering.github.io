@@ -43,6 +43,7 @@ body {
     z-index: 1;
 }
 
+/* Need to change positioning code */
 .navbar a {
     float: left;
     display: block;
@@ -51,7 +52,7 @@ body {
     text-decoration: none;
     color: white;
     position: relative;
-    left: 435px;
+    left: 495px;
 }
 
 .navbar a:hover {
@@ -97,7 +98,7 @@ body {
     height: 25px;
     width: 1px;
     position: relative;
-    left: 435px;
+    left: 495px;
     top: 11px;
     opacity: 0.55;
 }
