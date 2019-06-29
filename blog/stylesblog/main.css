@@ -71,6 +71,12 @@ body {
     width: 100%;
 }
 
+.column p {
+    padding: 0px 10px 0px 10px;
+    word-wrap: break-word;
+    color: white;
+}
+
 .navbaraspacing {
     float: left;
     padding: 0px;

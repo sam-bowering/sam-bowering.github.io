@@ -83,13 +83,6 @@ body {
     clear: both;
 }
 
-.column {
-    float: left;
-    background-color: black;
-    opacity: 0.5;
-    width: 100%;
-}
-
 .columns3 p {
     padding: 0px 10px 0px 10px;
     word-wrap: break-word;
