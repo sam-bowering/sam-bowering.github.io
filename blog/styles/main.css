@@ -93,6 +93,12 @@ body {
     width: 100%;
 }
 
+h1 {
+    font-family: 'Roboto Slab', serif;
+    padding: 0px 10px 0px 10px;
+    color: white;
+}
+
 .column p {
     padding: 0px 10px 0px 10px;
     word-wrap: break-word;
