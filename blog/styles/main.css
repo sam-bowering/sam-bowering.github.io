@@ -21,6 +21,8 @@ body {
     padding: 10px;
 }
 
+
+
 /* Navigation Bar */
 .navbar {
     background-color: darkslategrey;
@@ -29,9 +31,16 @@ body {
     overflow: hidden;
     top: 0;
     z-index: 1;
+    text-align: center;
+    height: 46px;
 }
 
-/* Need to change positioning code */
+.linkcluster {
+    display: inline-block;
+    position: relative;
+    height: 46px;
+}
+
 .navbar a {
     float: left;
     display: block;
@@ -40,7 +49,17 @@ body {
     text-decoration: none;
     color: white;
     position: relative;
-    left: 495px;
+    height: 46px;
+}
+
+.navbaraspacing {
+    float: left;
+    background-color: grey;
+    height: 25px;
+    width: 1px;
+    opacity: 0.55;
+    position: relative;
+    top: 10px;
 }
 
 .navbar a:hover {
@@ -52,6 +71,8 @@ body {
     background-color: grey;
     color: black;
 }
+
+
 
 /* Main Content */
 .main {
@@ -75,16 +96,4 @@ body {
     padding: 0px 10px 0px 10px;
     word-wrap: break-word;
     color: white;
-}
-
-.navbaraspacing {
-    float: left;
-    padding: 0px;
-    background-color: grey;
-    height: 25px;
-    width: 1px;
-    position: relative;
-    left: 495px;
-    top: 11px;
-    opacity: 0.55;
 }
