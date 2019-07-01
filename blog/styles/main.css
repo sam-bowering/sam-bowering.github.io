@@ -87,8 +87,31 @@ body {
     padding: 20px;
 }
 
+.post {
+    float: left;
+}
 
-.column {
+.posthead {
+    float: left;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.posthead p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.postbreak {
+    float: left;
+    opacity: 1;
+    width: 100%;
+    height: 5px;
+}
+
+.postbody {
     float: left;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -100,7 +123,7 @@ h1 {
     color: white;
 }
 
-.column p {
+.postbody p {
     padding: 0px 10px 0px 10px;
     word-wrap: break-word;
     color: white;
