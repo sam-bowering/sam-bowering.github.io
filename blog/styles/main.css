@@ -95,13 +95,25 @@ body {
     float: left;
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
+    padding: 10px 0px 10px 0px;
 }
 
-.posthead p {
+.posthead h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
     color: white;
     padding: 0px 10px 0px 10px;
+    display: inline;
+}
+
+.posthead p {
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.postdate {
+    
+    float: right;
 }
 
 .postbreak {
