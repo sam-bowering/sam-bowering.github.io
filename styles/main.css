@@ -10,6 +10,8 @@ body {
     background-size: 100% 100%;
 }
 
+
+
 /* Header */
 .header {
     text-align: center;
@@ -33,6 +35,8 @@ body {
     top: -47px;
 }
 
+
+
 /* Navigation Bar */
 .navbar {
     background-color: darkslategrey;
@@ -41,9 +45,16 @@ body {
     overflow: hidden;
     top: 0;
     z-index: 1;
+    text-align: center;
+    height: 46px;
 }
 
-/* Need to change positioning code */
+.linkcluster {
+    display: inline-block;
+    position: relative;
+    height: 46px;
+}
+
 .navbar a {
     float: left;
     display: block;
@@ -52,7 +63,17 @@ body {
     text-decoration: none;
     color: white;
     position: relative;
-    left: 495px;
+    height: 46px;
+}
+
+.navbaraspacing {
+    float: left;
+    background-color: grey;
+    height: 25px;
+    width: 1px;
+    opacity: 0.55;
+    position: relative;
+    top: 10px;
 }
 
 .navbar a:hover {
@@ -64,6 +85,8 @@ body {
     background-color: grey;
     color: black;
 }
+
+
 
 /* Main Content */
 .main {
@@ -94,16 +117,4 @@ body {
     padding: 5px;
     background-color: white;
     opacity: 0;
-}
-
-.navbaraspacing {
-    float: left;
-    padding: 0px;
-    background-color: grey;
-    height: 25px;
-    width: 1px;
-    position: relative;
-    left: 495px;
-    top: 11px;
-    opacity: 0.55;
 }
