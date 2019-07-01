@@ -88,6 +88,12 @@ body {
     color: black;
 }
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 
 /* Main Content */
@@ -99,12 +105,6 @@ body {
     float: left;
     width: 32.75%;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .columns3 p {
