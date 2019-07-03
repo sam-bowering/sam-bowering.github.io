@@ -45,23 +45,23 @@ body {
 /* #a2 = active link for this page */
 
 #a3 {
-    padding-left: 92px;
-    padding-right: 92px;
+    padding-left: 94.2px;
+    padding-right: 94.2px;
 }
 
 #a4 {
-    padding-left: 92px;
-    padding-right: 92px;
+    padding-left: 94.2px;
+    padding-right: 94.2px;
 }
 
 #a5 {
-    padding-left: 92px;
-    padding-right: 92px;
+    padding-left: 94.2px;
+    padding-right: 94.2px;
 }
 
 #a6 {
-    padding-left: 92px;
-    padding-right: 92px;
+    padding-left: 94.2px;
+    padding-right: 94.2px;
 }
 
 .navbar a:hover {
@@ -72,8 +72,8 @@ body {
 .navbar a.active {
     background-color: grey;
     color: black;
-    padding-left: 88.875px;
-    padding-right: 88.875px;
+    padding-left: 93px;
+    padding-right: 93px;
 }
 
 .row:after {
