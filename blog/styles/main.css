@@ -42,14 +42,35 @@ body {
     padding-right: 87.11px;
 }
 
+#navbar a#a1active {
+    background-color: grey;
+    color: black;
+    padding-left: 90.5px;
+    padding-right: 90.5px;
+}
+
 #a2 {
-	padding-left: 94.2px;
-	padding-right: 94.2px;
+	padding-left: 93px;
+	padding-right: 93px;
+}
+
+#navbar a#a2active {
+    background-color: grey;
+    color: black;
+    padding-left: 93px;
+    padding-right: 93px;
 }
 
 #a3 {
-    padding-left: 94.2px;
-    padding-right: 94.2px;
+    padding-left: 90.5px;
+    padding-right: 90.5px;
+}
+
+#navbar a#a3active {
+    background-color: grey;
+    color: black;
+    padding-left: 90.5px;
+    padding-right: 90.5px;
 }
 
 #a4 {
@@ -57,9 +78,23 @@ body {
     padding-right: 94.2px;
 }
 
+#navbar a#a4active {
+    background-color: grey;
+    color: black;
+    padding-left: 90.5px;
+    padding-right: 90.5px;
+}
+
 #a5 {
     padding-left: 94.2px;
     padding-right: 94.2px;
+}
+
+#navbar a#a5active {
+    background-color: grey;
+    color: black;
+    padding-left: 90.5px;
+    padding-right: 90.5px;
 }
 
 #a6 {
@@ -67,16 +102,16 @@ body {
     padding-right: 94.2px;
 }
 
+#navbar a#a6active {
+    background-color: grey;
+    color: black;
+    padding-left: 90.5px;
+    padding-right: 90.5px;
+}
+
 #navbar a:hover {
     color: darkslategrey;
     background-color: white;
-}
-
-#navbar a#active {
-    background-color: grey;
-    color: black;
-    padding-left: 93px;
-    padding-right: 93px;
 }
 
 #row:after {
