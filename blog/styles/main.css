@@ -131,17 +131,65 @@ body {
     width: 100%;
 }
 
+.postbody p.text-pre-trans {
+	margin-bottom: 2px;
+}
+
+.postbody p.trans {
+	color: grey;
+	margin-top: 0px;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
     padding: 0px 10px 0px 10px;
     color: white;
 }
 
+.postbody #text-right {
+	position: relative;
+	float: right;
+	width: 645px;
+	right: 90px;
+}
+
 .postbody p {
     padding: 0px 10px 0px 10px;
-    word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	width: 87%;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+
+#classvsid-img-1 {
+	width: 1000px;
+	height: 600px;
+	margin: 10px 10px 5px 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: orange;
+}
+
+#classvsid-img-2 {
+	width: 1000px;
+	height: 600px;
+	margin: 10px 10px 5px 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: orange;
+}
+
+#classvsid-img-3 {
+	width: 400px;
+	height: 800px;
+	margin: 10px 10px 5px 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: orange;
+	float: left;
 }
 
 

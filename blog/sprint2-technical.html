@@ -28,11 +28,59 @@
 					</div>
 					<div class="postbreak"> </div>
 					<div class="postbody">
-						<h1>What Are They?</h1>
-						<p> </p>
+						<h1>What Are They and What Do They Do?</h1>
+						<p class="text-pre-trans">Classes and ID's are selectors. Selectors simply allow you to style and format an HTML element in css.</p>
+						<p class="trans">(Translation: Classes and ID's are a tool to make an aspect of a website look how you want it to)</p>
+						<h1>Okay Sooo, What's the Difference?</h1>
+						<p class="text-pre-trans">The defining difference boils down to how much use the element will get. To use the index page of this blog as an example:</p>
+						<img src="styles/images/classvsid-1.png" alt="Difference - Code" id="classvsid-img-1">
+						<img src="styles/images/classvsvid-2.png" alt="Difference - Website" id="classvsid-img-2">
+						<p class="text-pre-trans">Each element marked <font color="yellow">yellow</font> is only used once; both in the HTML file and the web page. These elements only need to appear once  
+						    because they are core structural aspects of the page that have no need to have multiples of such as, the header, navigation bar, cluster of links and the 
+						    main body of the page below the header. These are the <font color="yellow">ID's</font>.</p>
+						<p class="trans">(Translation: Everything with a <font color="#e5e500">yellow</font> line through it is an <font color="#e5e500">ID</font>. These things only appear ONCE and are UNIQUE)</p>
+						<p class="text-pre-trans">The other elements marked <font color="red">red</font> are used multiple times throughout the web page and HTML file. The <font color="red">class</font> selector 
+						    elements are specifically elements you want to display more than once and with the exact same formatting.</p>
+						<p class="trans">(Translation: Everything with a <font color="#e50000">red</font> line through it is a <font color="#e50000">class</font>. These things appear MULTIPLE times and are all the SAME)</p>
+						<h1>What do they look like Behind the Scenes?</h1>
+						<p>You've seen how they're written in HTML, but not yet in css.</p>
+						<img src="styles/images/classvsid-3.png" alt="Difference - CSS" id="classvsid-img-3">
+						<div id="text-right">
+							<p>The difference between defining an <font color="yellow">ID</font> versus a <font color="red">class</font> is extremely 
+								simple and won't need translation. You'll understand soon, as any 
+								content starting with a hash '#' is an <font color="yellow">ID</font> and yes, you genius, you 
+								guessed it; anything starting with a fullstop '.' is a <font color="red">class</font>. If you had to 
+								go digging through the dictionary to figure that one out, all I can say 
+								is I'm worried.</p>
+							<h1>But... Wait? Does CSS even care?</h1>
+							<p class="text-pre-trans">NOPE! HA! According to Chris Coyier, at CSS-Tricks <font color="orange">"Regarding CSS, 
+								there is nothing you can do with an ID that you can't do with a Class 
+								and vise versa. I remember when I was first learning CSS and I was 
+								having a problem, sometimes I would try and troubleshoot by switch
+								ing around these values. Nope. CSS doesn't care."</font></p>
+							<p class="trans">Translation: Javascript, another programming language. Oh, you 
+								know the one? Yeah doesn't care...</p>
+							<h1>Carrying on...</h1>
+							<p class="text-pre-trans">Don't mind the progressively increasing angst... Elements do care! :D 
+							   There is nothing stopping you from having both an <font color="yellow">ID</font> and a <font color="red">Class</font> on 
+							   a single element. Orrr, even <font color="lime">nesting</font> an <font color="yellow">ID</font> inside an <font color="yellow">ID</font> or a <font color="red">Class</font> 
+							   inside a <font color="red">Class</font>.</p>
+							<p class="trans">Translation: I can't sit down and write without getting way too chatty 
+							   in my writing. Oh, and it is a-okay to place either an <font color="#e5e500">ID</font> or <font color="#e50000">red</font> inside of 
+							   itself to tinker with formatting within a custom formatted element.</p>
+							<h1>Summary</h1>
+							<p class="text-pre-trans">To conclude; <font color="red">Classes</font> <font color="yellow">ID's</font> are selectors that serve as formatting links 
+							   between HTML and other languages to shape elements to personal 
+							   liking; <font color="red">'#'</font> is used for <font color="red">Classes</font> and <font color="yellow">'.'</font> is used for <font color="yellow">ID's</font>; the defining 
+							   difference is whether the custom element is used one or more times and 
+							   <font color="lime">nesting</font> is fully supported to allow you to further customize 
+							   formatting within an element.</p>
+							<p class="trans">Translation: <font color="#e50000">Classes</font> and <font color="#e5e500">ID's</font> are tools used to customize parts of a webpage to personal preference and can be used in combination to customize to ones desire.</p>
+						</div>
 					</div>
 				</div>
             </div>
-        </div>
+		</div>
+		<div id="footer"></div>
     </body>
 </html>
