@@ -12,7 +12,7 @@ body {
 
 
 /* Header */
-.header {
+#header {
     text-align: center;
     background-color: black;
     opacity: 0.90;
@@ -22,14 +22,14 @@ body {
     padding: 10px;
 }
 
-.header h1 {
+#header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     position: relative;
     top: -15px;
 }
 
-.header p {
+#header p {
     font-size: 10px;
     position: relative;
     top: -37px;
@@ -38,7 +38,7 @@ body {
 
 
 /* Navigation Bar */
-.navbar {
+#navbar {
     background-color: darkslategrey;
     position: sticky;
     position: -webkit-sticky;
@@ -49,13 +49,13 @@ body {
     height: 46px;
 }
 
-.linkcluster {
+#linkcluster {
     display: inline-block;
     position: relative;
     height: 46px;
 }
 
-.navbar a {
+#navbar a {
     float: left;
     display: block;
     text-align: center;
@@ -78,17 +78,17 @@ body {
     top: 10px;
 }
 
-.navbar a:hover {
+#navbar a:hover {
     color: darkslategrey;
     background-color: white;
 }
 
-.navbar a.active {
+#navbar a#active {
     background-color: grey;
     color: black;
 }
 
-.row:after {  /* <--- Keeps navbar sticky whilst scrolling */
+#row:after {  /* <--- Keeps navbar sticky whilst scrolling */
     content: "";
     display: table;
     clear: both;
@@ -97,7 +97,7 @@ body {
 
 
 /* Main Content */
-.main {
+#main {
     padding: 20px;
 }
 
@@ -124,6 +124,6 @@ body {
 
 
 /* Footer */
-.footer {
+#footer {
     padding: 10px;
 }

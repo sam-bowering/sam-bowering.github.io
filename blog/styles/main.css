@@ -12,7 +12,7 @@ body {
 
 
 /* Navigation Bar */
-.navbar {
+#navbar {
     background-color: darkslategrey;
     position: sticky;
     position: -webkit-sticky;
@@ -20,11 +20,11 @@ body {
     float: left;
 }
 
-.linkcluster {
+#linkcluster {
     position: relative;
 }
 
-.navbar a {
+#navbar a {
     float: left;
     display: block;
     text-align: center;
@@ -64,19 +64,19 @@ body {
     padding-right: 94.2px;
 }
 
-.navbar a:hover {
+#navbar a:hover {
     color: darkslategrey;
     background-color: white;
 }
 
-.navbar a.active {
+#navbar a#active {
     background-color: grey;
     color: black;
     padding-left: 93px;
     padding-right: 93px;
 }
 
-.row:after {
+#row:after {
     content: "";
     display: table;
     clear: both;
@@ -85,7 +85,7 @@ body {
 
 
 /* Main Content */
-.main {
+#main {
     padding: 20px;
 }
 
@@ -147,6 +147,6 @@ h1 {
 
 
 /* Footer */
-.footer {
+#footer {
     padding: 10px;
 }
