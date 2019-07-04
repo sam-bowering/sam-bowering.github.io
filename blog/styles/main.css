@@ -42,7 +42,10 @@ body {
     padding-right: 87.11px;
 }
 
-/* #a2 = active link for this page */
+#a2 {
+	padding-left: 94.2px;
+	padding-right: 94.2px;
+}
 
 #a3 {
     padding-left: 94.2px;
