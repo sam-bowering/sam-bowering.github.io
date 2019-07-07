@@ -1,0 +1,48 @@
+#header {
+	padding: 0px;
+	opacity: 0.8;
+}
+
+#header-title {
+	text-align: center;
+}
+
+#main {
+	background-color: white;
+}
+
+#intial-row {
+	margin: 10px;
+}
+
+#top-left {
+	background-color: #f0932b;
+	width: 50%;
+	height: 390px;
+	float: left;
+	border-radius: 15px 0px 0px 0px;
+}
+
+#top-right {
+	background-color: #e056fd;
+	width: 50%;
+	height: 390px;
+	float: right;
+	border-radius: 0px 15px 0px 0px;
+}
+
+#bottom-left {
+	background-color: #7ed6df;
+	width: 50%;
+	height: 390px;
+	float: left;
+	border-radius: 0px 0px 0px 15px;
+}
+
+#bottom-right {
+	background-color: #badc58;
+	width: 50%;
+	height: 390px;
+	float: right;
+	border-radius: 0px 0px 15px 0px;
+}
