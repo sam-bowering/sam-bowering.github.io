@@ -5,6 +5,9 @@ body {
 
 #container {
 	margin: 0px 8px 8px 8px;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
 }
 
 #header {
@@ -39,6 +42,7 @@ body {
 	font-family: 'Dosis', sans-serif;
 	padding: 0px 15px 0px 15px;
 	display: inline-block;
+	border-radius: 15px;
 }
 
 #navbar a:hover {
@@ -66,6 +70,7 @@ body {
 	background-color: #f0932b;
 	width: 708px;
 	height: 400px;
+	margin-bottom: 4px;
 	float: left;
 	border-radius: 15px;
 	text-align: center;
@@ -85,6 +90,7 @@ body {
 	background-color: #e056fd;
 	width: 708px;
 	height: 400px;
+	margin-bottom: 4px;
 	float: right;
 	border-radius: 15px;
 	text-align: center;
@@ -104,7 +110,7 @@ body {
 	background-color: #7ed6df;
 	width: 708px;
 	height: 400px;
-	margin-top: 8px;
+	margin-top: 4px;
 	margin-bottom: 8px;
 	float: left;
 	border-radius: 15px;
@@ -125,7 +131,7 @@ body {
 	background-color: #badc58;
 	width: 708px;
 	height: 400px;
-	margin-top: 8px;
+	margin-top: 4px;
 	margin-bottom: 8px;
 	float: right;
 	border-radius: 15px;
