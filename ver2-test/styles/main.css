@@ -71,10 +71,14 @@ body {
 	text-align: center;
 }
 
+#top-left:hover {
+	background-color: #ff3838;
+}
+
 #top-left h1 a {
 	display: block;
 	text-decoration: none;
-	color: white;
+	color: inherit;
 }
 
 #top-right {
@@ -86,10 +90,14 @@ body {
 	text-align: center;
 }
 
+#top-right:hover {
+	background-color: #ff3838;
+}
+
 #top-right h1 a {
 	display: block;
 	text-decoration: none;
-	color: white;
+	color: inherit;
 }
 
 #bottom-left {
@@ -103,10 +111,14 @@ body {
 	text-align: center;
 }
 
+#bottom-left:hover {
+	background-color: #ff3838;
+}
+
 #bottom-left h1 a {
 	display: block;
 	text-decoration: none;
-	color: white;
+	color: inherit;
 }
 
 #bottom-right {
@@ -120,8 +132,12 @@ body {
 	text-align: center;
 }
 
+#bottom-right:hover {
+	background-color: #ff3838;
+}
+
 #bottom-right h1 a {
 	display: block;
 	text-decoration: none;
-	color: white;
+	color: inherit;
 }
