@@ -1,10 +1,17 @@
 body {
 	background-color: #ecf0f1;
+	margin: 0px;
+}
+
+#container {
+	margin: 0px 8px 8px 8px;
 }
 
 #header {
 	text-align: center;
 	padding: 0px 0px 10px 0px;
+	position: relative;
+	top: -5px;
 }
 
 #header h1 {
@@ -42,10 +49,6 @@ body {
 #header p {
 	height: 0px;
 	margin: 0px;
-}
-
-#main {
-	padding-bottom: 60px;
 }
 
 #main h1 {
