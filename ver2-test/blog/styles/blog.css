@@ -59,3 +59,46 @@ body {
 	height: 0px;
 	margin: 0px;
 }
+
+#sidebar {
+	background-color: #c0392b;
+	position: fixed;
+	width: 15%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#linkcluster {
+	color: #e6e9e9;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	display: inline-block;
+	padding: 15px;
+	position: relative;
+	top: -15px;
+}
+
+#linkcluster #small {
+	font-size: 35px;
+}
+
+#linkcluster h2 {
+	margin: 10px 0px 10px 0px;
+}
+
+.splitter {
+	background-color: #34495e;
+	position: relative;
+	height: 1px;
+	width: 80%;
+	display: inline-block;
+	
+}
+
+.column {
+	background-color: #34495e;
+	position: fixed;
+	float: right;
+	width: 70%;
+	height: 400px;
+}
