@@ -105,8 +105,8 @@ body {
 #navbar a#a6active {
     background-color: grey;
     color: black;
-    padding-left: 90.5px;
-    padding-right: 90.5px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 #navbar a:hover {
