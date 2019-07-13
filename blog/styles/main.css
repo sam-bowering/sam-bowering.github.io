@@ -202,6 +202,10 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.postbody p.quote {
+    
+}
+
 #classvsid-img-1 {
 	width: 1000px;
 	height: 600px;

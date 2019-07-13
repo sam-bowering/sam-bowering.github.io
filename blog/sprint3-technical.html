@@ -28,7 +28,55 @@
 					</div>
 					<div class="postbreak"> </div>
 					<div class="postbody">
-						<h1>HTML and CSS</h1>
+                        <h1>HTML and CSS</h1>
+                        <p>I've used analogies before in past reflections about how I'd describe HTML and CSS to a non-technical friend: </p>
+                        <p>"I seem to always imagine HTML and CSS like a child and an artist. The kid knows how to put blocks together and how they stick but has absolutely no eye for detail or how it should look. CSS, or, the artist; turns the tower of blocks into a functional work of art."</p>
+                        <p>&</p>
+                        <p>"Man and his best friend. My comparison doesn't directly relate to the functional aspect of HTML and the artistry of CSS, but more to the relationship itself. Yes, man can survive and operate day to day without a dog, but with it, he's a better man and enjoys himself more."</p>
+                        <h1>Control Flow & Loops</h1>
+                        <p>Control Flow and loops are essentially the way Javascript(JS) knows how to do what in what order. JS as a programming language reads your code from top to bottom and executes it in that order. Control flow and loops can break this process and start / stop in a different location to better suit what you want your code to do.</p>
+                        <p>The best way I'd describe them in everyday terms would be:</p>
+                        <p>Imagine control flow and loops as the plumber of your code. If there's a leak somewhere in your code, the plumber can reroute the water (code) so that it all runs smoothly.</p>
+                        <h1>The DOM</h1>
+                        <p>As Joseph mentions in this sprints' workshop video, the DOM or Document Object Model, is like a window into your code displayed on your web browser. You can open the DOM to see how each individual section of a webpage is displayed by being shown all the elements of the code that makes up said section. Much like cutting a cake in half and seeing each layer that makes up the cake.</p>
+                        <p>The DOM also serves as a link between all the files you can see through it and enables different languages such as HTML, CSS and Javascript to work in union and allow users to interact with each section on the screen.</p>
+                        <h1>Accessing Data - Arrays Vs. Objects</h1>
+                        <p>Arrays:</p>
+                        <p>Accessing data from an array is done with square bracket notation and zero-based indexing, and yes, it looks about as fun as it sounds. Okay sooo, what does it look like? A basic array would look something like this:</p>
+                        <p>var cars = ["ford", "chevrolet", "aston martin", "ferrari"]</p>
+                        <p> - Sweet, alright. So now how do I pull that information and apply it somewhere else?</p>
+                        <p> - Ah young padawan, you have much to learn...</p>
+                        <p>var carChoice = cars[2]</p>
+                        <p> - Chooiiicceee, love that chevvy V8 purr</p>
+                        <p> - ... Did you listen to nothing I just said? Z e r o - b a s e d i n d e x i n g bucko. The first item in the array has an index of ZERO, not ONE, and thus your beloved Chevrolet would be at index cars[1] so you're just going to have to settle for a grungy ol' Aston Martin.</p>
+                        <p> - You know what... I think I can live with that...</p>
+                        <p>Objects: </p>
+                        <p>Objects are the way developers put a physical thing in real life that isn't represented by a variable into the program. The this is done is like this:</p>
+                        <p>var car = {</p>
+                        <p>"make": "Aston Martin",</p>
+                        <p>"model": "DB11 Volante",</p>
+                        <p>"gears": 8,</p>
+                        <p>"pros": ["break-neck speed", "she purty", "literally everything"</p>
+                        <p>}</p>
+                        <p>www.google.com/how-to-access-object-javascript/</p>
+                        <p>Let me stop you right there, and tell you all you need to know. Dot notation. Yes, another absolute ripper. Accessing the information inside an object is quite simple really and it looks like this:</p>
+                        <p>var carModel = car.model</p>
+                        <p>var carGears = car.gears</p>
+                        <p>And to access a specific part of an array, we simply add what we previously learnt about doing so:</p>
+                        <p>var carPros = car.pros[2]</p>
+                        <p>Functions and Why They Are Helpful:</p>
+                        <p>"Do your fingers hurt after writing out 1000 lines of single-line code?"</p>
+                        <p>"Do you get lost in your code like a blind man circumnavigating the globe with a map?"</p>
+                        <p>"If this sounds like you, call 0800-FUNCTIONS today!</p>
+                        <p>Functions, functions, functions... What would we do without functions. Functions my friend, are the b-nizzle when it comes to efficieny and productivity of your code. Instead of repeating the same block of code over and over and over again you create a function that only requires you to write out those hefty chunks of code ONCE and create a custom name to call that function again however many times you want. Just like this:</p>
+                        <p>var awesomeness = 2</p>
+                        <p>function tellMeIKeepGettingAwesomer() {</p>
+                        <p>console.log("You're awesome")</p>
+                        <p>console.log("You're this awesome! " + (awesomeness *= awesomeness))</p>
+                        <p>console.log("You're awesome")</p>
+                        <p>}</p>
+                        <p>Imagine when you're feeling down, your code doesn't seem to work no matter what you do and you need a little pick-me-up. Where else could you turn but your tellMeIKeepGettingAwesomer() function? And instead of needing to keep typing out those five magical lines of code every time you're in desperate need, all one needs to do this "tellmeIKeepGettingAwesomer()". And if that doesn't highlight why functions are helpful, I don't know what will.</p>
+                        <h1>APOLOGISES FOR THE TRASH FORMATTING - I'M SICK AS A DOG</h1>
 					</div>
 				</div>
 			</div>
