@@ -84,14 +84,7 @@ body {
 
 #linkcluster h2 {
 	margin: 10px 0px 10px 0px;
-}
-
-.splitter {
-	background-color: #34495e;
-	position: relative;
-	height: 1px;
-	width: 80%;
-	display: inline-block;
+	padding: 30px 0px 30px 0px;
 }
 
 #main {
