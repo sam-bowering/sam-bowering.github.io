@@ -121,6 +121,18 @@ body {
     padding-right: 90px;
 }
 
+#a8 {
+    padding-left: 94.2px;
+    padding-right: 94.2px;
+}
+
+#navbar a#a8active {
+    background-color: grey;
+    color: black;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
 #navbar a:hover {
     color: darkslategrey;
     background-color: white;
